@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/onstageButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:background="@drawable/onstage"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold|normal"
+        android:gravity="left"
+        android:text=" On Stage\n\t\tEvents ..."/>
+
+    <Button
+        android:id="@+id/offstageButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:background="@drawable/offstage"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold|normal"
+        android:gravity="left"
+        android:text=" Off Stage\n\t\tEvents ..." />
+
+    <Button
+        android:id="@+id/guestButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:background="@drawable/guest"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold|normal"
+        android:gravity="left"
+        android:text=" Guest\n\t\tPerformances ..." />
+
+</LinearLayout>

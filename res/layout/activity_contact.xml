@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+     >
+
+    <TextView
+        android:id="@+id/contact_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:autoLink="all"
+        android:text="REGISTER HERE :\nhttp://www.fetsanskritiju.in/Registration.php\n\n\nCONTACTS :\n\nConvenors :\nApratim Sarkar\n+919674994218\nAniket Goswami\n+919051861224\nChiranjit Mondal\n+919933600093\nRajarshi Maitra\n+918697046523\n\nCredits :\n\nPratyay Mukhopadhyay\n\n\nDEVELOPERS :\n\nDebjeet Sarkar\n+919748845767\ndj_swift8@gmail.com\n\nNilabhra Roy Chowdhury\n+918961458169\nnilabhraroy@ymail.com"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
